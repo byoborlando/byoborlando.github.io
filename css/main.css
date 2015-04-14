@@ -71,7 +71,8 @@ body {
 
 nav {
   background: url('../img/texture-01.gif') top left no-repeat;
-  margin-bottom: 85px;
+  /*margin-bottom: 85px;*/
+  margin: 0 -6%;
 }
 
 nav ul {
@@ -126,6 +127,8 @@ nav a:hover {
     color: white;
     padding: 20px 0;
     text-align: center;
+    font-size: 0.8em;
+    line-height: 1.5;
 }
 
 /* ===============
@@ -170,10 +173,6 @@ h1 {
   display: inline-block;
 }
 
-.byob_orlando h1 {
-  margin-bottom: 8em;
-}
-
 .title {
   background: url('../img/byob.png') top left no-repeat;
   width: 272px;
@@ -187,6 +186,10 @@ h1 {
 
 .byob_worldwide footer {
   text-align: right;
+}
+
+.artists, .images {
+  padding-top: 50px;
 }
 
 .main article h1 {
@@ -221,6 +224,12 @@ h1 {
     INTERMEDIATE: Menu
    ==================== */
 
+  nav {
+    margin-bottom: 85px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 /*    nav a {
         float: left;
         width: 27%;
@@ -252,6 +261,7 @@ h1 {
   .artists {
     background: url('../img/texture-03.gif') bottom left no-repeat;
     min-height: 317px;
+    /*padding-left: 50px;*/
   }
 
   .byob_worldwide {
@@ -263,6 +273,14 @@ h1 {
   .images {
     background: url('../img/texture-05.gif') top left no-repeat;
     padding-left: 135px;
+  }
+
+  .directions {
+
+  }
+
+  .sponsors {
+    margin-top: 50px;
   }
 
   .byob_title {
@@ -368,6 +386,10 @@ h1 {
   .byob_orlando {
     padding-bottom: 55px;
   }
+
+  .byob_orlando h1 {
+    margin-bottom: 8em;
+  }  
 
   .byob_worldwide {
     padding-bottom: 0;
