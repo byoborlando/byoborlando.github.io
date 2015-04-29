@@ -70,7 +70,7 @@ body {
    ============== */
 
 nav {
-  background: url('../img/texture-01.gif') top left no-repeat;
+  /*background: url('../img/texture-01.gif') top left no-repeat;*/
   /*margin-bottom: 85px;*/
   margin: 0 -6%;
 }
