@@ -192,6 +192,62 @@ h1 {
   padding-top: 50px;
 }
 
+.artists ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.artists li {
+  list-style: none;
+}
+
+.artists li a {
+  background: none;
+  color: white;
+  border-bottom: 1px dotted #fff;
+}
+
+.artists li a:hover, .artists li a.selected {
+  background: white;
+  color: black;
+  border: none;
+}
+
+.artists .artist-work {
+  display: none;
+}
+
+.artists .selected {
+  display: inline;
+}
+
+.artists .artist-work img {
+  display: none;
+}
+
+.artists .artist-work img.selected {
+  display: block;
+}
+
+.image-nav {
+  width: 320px;
+}
+
+.next, .prev {
+  background: none;
+  color: white;
+}
+
+.more {
+  background: none;
+  color: white;
+  display:inline-block;
+  text-align: right;
+  float:right;
+  border-bottom: 1px dotted white;
+}
+
 .main article h1 {
   font-size: 1.2em;
   font-weight: normal;
