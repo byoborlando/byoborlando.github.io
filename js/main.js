@@ -56,6 +56,9 @@ $( document ).ready(function() {
 
     // replace href of site link
     $('.image-nav .more').attr('href', $artist.attr('href') );
+
+    // scroll to images
+    $("html, body").animate({ scrollTop: $("#images").offset().top }, "slow");
   });
 
 });
